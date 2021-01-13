@@ -27,7 +27,7 @@ player_latency_protection:
 # Database logging system
 database:
   # Should matrix use a database to record player data?
-  enable: false
+  enable: true
 
   # Database address
   address: 'localhost'
@@ -62,7 +62,7 @@ permission_refresh_interval: 15
 #   1. Spigot Mode: Install GeyserMC/FloodGate in Spigot, you don’t need to modify this setting, Matrix will automatically support it
 #   2. Bungee Mode: When GeyserMC is installed in BungeeCord, you need to enable this option and also install Matrix in BungeeCord
 # !!!    Do NOT enable this option if you have NOT installed GeyserMC in BungeeCord
-bungee_geysermc_support: false
+bungee_geysermc_support: true
 
 # Kick Lighting Effect
 # Should there be a lightning bolt visual effect if someone is getting kicked using /matrix kick
